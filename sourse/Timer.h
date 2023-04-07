@@ -2,6 +2,8 @@
 #define __TIMER_H_
 
 void Timer0Init();
+void UartInit();
+
 
 
 #endif

@@ -2,9 +2,17 @@
 
 
 
+
+
 void main()
 {
+	led_Init();
+	
 	write_ds1302();
+	
+	EA = 0;
+	UartInit();
+	EA = 1;
 	
 	EA = 0;
 	Timer0Init();

@@ -14,9 +14,11 @@ void led_config(unsigned char led_adr,unsigned char led_dat)
 }
 
 
-void led_test()
+void led_Init()
 {
-
-
+	HC138_config(5);
+	P0 = 0x00;
+	HC138_config(4);
+	P0 = 0xff;
 }
 

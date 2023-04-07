@@ -1,4 +1,4 @@
-C51 COMPILER V9.60.0.0   MAIN                                                              04/06/2023 21:12:07 PAGE 1   
+C51 COMPILER V9.60.0.0   MAIN                                                              04/07/2023 19:11:03 PAGE 1   
 
 
 C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
@@ -12,35 +12,43 @@ line level    source
    2          
    3          
    4          
-   5          void main()
-   6          {
-   7   1        write_ds1302();
-   8   1        
-   9   1        EA = 0;
-  10   1        Timer0Init();
-  11   1        EA = 1;
+   5          
+   6          
+   7          void main()
+   8          {
+   9   1        led_Init();
+  10   1        
+  11   1        write_ds1302();
   12   1        
-  13   1        dat_output(10); 
-  14   1        
-  15   1        while(1)
-  16   1        {
-  17   2          ds18b20_config();
-  18   2          read_ds1302();
-  19   2          adc_switch();
-  20   2          refer_key();
-  21   2          menu_key();
-  22   2        }
-  23   1      
-  24   1      }
-  25          
-  26          
-  27          
-  28          
-  29          
+  13   1        EA = 0;
+  14   1        UartInit();
+  15   1        EA = 1;
+  16   1        
+  17   1        EA = 0;
+  18   1        Timer0Init();
+  19   1        EA = 1;
+  20   1        
+  21   1        dat_output(10); 
+  22   1        
+  23   1        while(1)
+  24   1        {
+  25   2          ds18b20_config();
+  26   2          read_ds1302();
+  27   2          adc_switch();
+  28   2          refer_key();
+  29   2          menu_key();
+  30   2        }
+  31   1      
+  32   1      }
+  33          
+  34          
+  35          
+  36          
+  37          
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =     32    ----
+   CODE SIZE        =     42    ----
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----

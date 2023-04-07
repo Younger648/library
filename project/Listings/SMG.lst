@@ -1,4 +1,4 @@
-C51 COMPILER V9.60.0.0   SMG                                                               04/06/2023 21:12:07 PAGE 1   
+C51 COMPILER V9.60.0.0   SMG                                                               04/07/2023 19:11:03 PAGE 1   
 
 
 C51 COMPILER V9.60.0.0, COMPILATION OF MODULE SMG
@@ -62,7 +62,7 @@ line level    source
   52   2          case 3:
   53   2            adr = 6;
   54   2            dat = 16;
-C51 COMPILER V9.60.0.0   SMG                                                               04/06/2023 21:12:07 PAGE 2   
+C51 COMPILER V9.60.0.0   SMG                                                               04/07/2023 19:11:03 PAGE 2   
 
   55   2          break;
   56   2              
@@ -126,7 +126,7 @@ line level    source
  114          
  115          
  116          
-C51 COMPILER V9.60.0.0   SMG                                                               04/06/2023 21:12:07 PAGE 3   
+C51 COMPILER V9.60.0.0   SMG                                                               04/07/2023 19:11:03 PAGE 3   
 
  117          
  118          void ds1302_show()
@@ -190,7 +190,7 @@ line level    source
  176   1      
  177   1      }
  178          
-C51 COMPILER V9.60.0.0   SMG                                                               04/06/2023 21:12:07 PAGE 4   
+C51 COMPILER V9.60.0.0   SMG                                                               04/07/2023 19:11:03 PAGE 4   
 
  179          
  180          
